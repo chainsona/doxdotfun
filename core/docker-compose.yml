@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    container_name: pumpfun-new-tokens-ip
+    ports:
+      - "8001:80"
+    # volumes:
+      # - ./db:/usr/src/main/db  # Local database volume mapping
+    restart: unless-stopped

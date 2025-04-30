@@ -1,0 +1,7 @@
+requests
+python-dotenv
+supabase
+tqdm
+solders
+solana
+tweepy
